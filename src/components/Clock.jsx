@@ -5,7 +5,6 @@ import { Word } from './Word';
 const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']; 
 
 export const Clock = ({h24=true}) => {
-
     const [hour  , setHour  ] = useState(0);
     const [minute, setMinute] = useState(0);
     const [second, setSecond] = useState(0);
@@ -13,7 +12,6 @@ export const Clock = ({h24=true}) => {
     const [pm    , setPm    ] = useState(false);
 
     useEffect(()=> {
-
         const update = () => {
             const date = new Date();
             let hour = date.getHours();
@@ -34,13 +32,13 @@ export const Clock = ({h24=true}) => {
         }, 1000);
 
         return ()=>clearInterval(interval);
-    }, []);
+    });
 
     return (
         <div className='clock'>
             <div className='calendar'>
                 {
-                    days.map((value, index)=>(<Word key={value} value={value} hidden={index != day}/>))
+                    days.map((value, index)=>(<Word key={value} value={value} hidden={index !== day}/>))
                 }
             </div>
             <div className='row'>
