@@ -7,7 +7,7 @@ export const Word = ({ value, hidden = false }) => {
     }
   }
   return (
-    <div className='digital'>
+    <div className='aspect'>
       <p>{value}</p>
       <p style={getStyle()}>{value}</p>
     </div>

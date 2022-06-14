@@ -51,23 +51,23 @@ body {
   margin-bottom: 25px;
 }
 
-.digital {
+.aspect {
   display: inline-block;
   position: relative;
 }
 
-.digital :first-child {
+.aspect :first-child {
   width: 100%;
   position: absolute;
   color: #FE472C;
   opacity: 20%;
 }
 
-.digital :last-child {
+.aspect :last-child {
   position: relative;
   color: #D44A39;
 }
 
-.digital p {
+.aspect p {
   margin: 0;
 }
