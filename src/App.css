@@ -31,8 +31,6 @@ body {
 
 .row {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
 .hour {
@@ -59,8 +57,7 @@ body {
 .aspect :first-child {
   width: 100%;
   position: absolute;
-  color: #FE472C;
-  opacity: 20%;
+  color: #D44A39;
 }
 
 .aspect :last-child {
