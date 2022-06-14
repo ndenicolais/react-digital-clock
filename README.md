@@ -3,7 +3,7 @@
 
 > <b>Author: Nicola De Nicolais</b>
 
-This code represents a simple QR code generator app based on React with the integration of React Router
+This code represents a simple digital clock with calendar's days based on React with the integration of React Router
 
 ## 🚀 Technologies used
 
