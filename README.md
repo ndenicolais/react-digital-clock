@@ -31,9 +31,11 @@ Open http://localhost:3000 to view the application in the browser.
 - Run `yarn start` 
 - Run `npm run dev`
 
-## ⚙️ Customize clock's aspect
+## ⚙️ Customize the code
 
-Customize the clock's aspect in CSS file according to your preferences by editing these parameters:
+Customize the clock's aspect according to your preferences by editing these parameters:
 
-- clock
-- calendar
+📁 CSS folder
+
+🕛 clock
+📆 calendar
