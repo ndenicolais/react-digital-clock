@@ -39,7 +39,7 @@ Customize the clock's aspect according to your preferences by editing these para
 
 🕛 clock
 - hour
-- ampm
+- format (AM / PM)
 - aspect
 
 📆 calendar

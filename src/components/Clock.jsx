@@ -49,7 +49,7 @@ export const Clock = ({h24=true}) => {
                     <Word value={':'} />
                     <Number value={second}/>
                 </div>
-                <div className='ampm'>
+                <div className='format'>
                     <Word value={'AM'} hidden={ pm} />
                     <Word value={'PM'} hidden={!pm} />
                 </div>
