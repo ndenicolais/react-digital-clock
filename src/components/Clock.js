@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Number } from './number'
-import { Word } from './word';
+import Number from './number'
+import Word from './word';
 
 const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']; 
 
