@@ -7,11 +7,11 @@ This code represents a simple digital clock with calendar's days based on React 
 
 ## 🚀 Technologies used
 
-💠 [React](https://reactjs.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="70">](https://reactjs.org/)
 
 React.js is a JavaScript library for creating user interfaces specific to single-page applications. It allows developers to create large web applications that can modify data without having to reload the page every time.
 
-📍 [React Router](https://reactrouter.com/)
+[<img src="https://seeklogo.com/images/R/react-router-logo-AB5BFB638F-seeklogo.com.png" width="80">](https://reactrouter.com/)
 
 React Router is a complete JavaScript routing library that allows you to manage paths within a web application using so-called dynamic routing. It allows navigation between sections of various components in React applications and allows you to change the URL of the browser while keeping the user interface synchronized with the URL.
 
@@ -31,15 +31,15 @@ Open http://localhost:3000 to view the application in the browser.
 - Run `yarn start` 
 - Run `npm run dev`
 
-## ⚙️ Customize the code
+## ⚙️ Customization
 
 Customize the clock's aspect according to your preferences by editing these parameters:
 
-📁 CSS folder
+📄 App.css in 📁 src
+
+📆 calendar
 
 🕛 clock
 - hour
 - format (AM / PM)
 - aspect
-
-📆 calendar
