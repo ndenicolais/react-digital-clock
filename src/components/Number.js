@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Number = ({value = 0}) => {
+const Number = ({value = 0}) => {
   const result = String(value).padStart(2, "0");
   return (
       <div className='aspect'>
@@ -8,3 +8,5 @@ export const Number = ({value = 0}) => {
       </div>
   )
 }
+
+export default Number;

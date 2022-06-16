@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Number } from './Number'
-import { Word } from './Word';
+import { Number } from './number'
+import { Word } from './word';
 
 const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']; 
 
-export const Clock = ({h24=true}) => {
+const Clock = ({h24=true}) => {
     const [hour  , setHour  ] = useState(0);
     const [minute, setMinute] = useState(0);
     const [second, setSecond] = useState(0);
@@ -57,3 +57,5 @@ export const Clock = ({h24=true}) => {
         </div>
     )
 }
+
+export default Clock;

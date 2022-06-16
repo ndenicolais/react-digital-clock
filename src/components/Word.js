@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Word = ({ value, hidden = false }) => {
+const Word = ({ value, hidden = false }) => {
   const getStyle = ()=> {
     return {
       visibility:  hidden ? 'hidden' : 'visible'
@@ -13,3 +13,5 @@ export const Word = ({ value, hidden = false }) => {
     </div>
   )
 }
+
+export default Word;
