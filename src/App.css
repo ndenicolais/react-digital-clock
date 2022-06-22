@@ -85,3 +85,18 @@ a:link {
 a:visited {
   text-decoration: none;
 }
+
+@media (max-width: 770px) {
+
+  .clock {
+    padding: 6px;
+  }
+
+  .calendar, .format {
+    font-size: 0.5rem;
+  }
+
+  .hour {
+    font-size: 3.5rem;
+  }
+}
