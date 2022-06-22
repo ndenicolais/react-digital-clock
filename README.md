@@ -5,7 +5,7 @@
 
 This code represents a simple digital clock with calendar's days based on React with the integration of React Router
 
-## 🚀 Technologies used
+## 💻 Technologies used
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="70">](https://reactjs.org/)
 
