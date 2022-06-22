@@ -1,6 +1,11 @@
 {
-  "short_name": "RDC",
   "name": "React Digital Clock",
+  "short_name": "RDC",
+  "start_url": "",
+  "display": "standalone",
+  "background_color": "#D44A39",
+  "theme_color": "#FECF37",
+  "description": "React digital clock",
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,9 +28,5 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

@@ -15,11 +15,11 @@ body {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  padding: 20px 20px 5px 20px;
+  padding: 10px 10px 5px 10px;
 }
 
 .calendar {
-  font-size: 2rem;
+  font-size: 1.5em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,8 +34,7 @@ body {
 }
 
 .hour {
-  flex: 1;
-  font-size: 7rem;
+  font-size: 6em;
   margin: 0;
   padding: 0;
   top: 0;
@@ -43,7 +42,7 @@ body {
 
 .format {
   align-self: flex-end;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   display: flex;
   gap: 10px;
   margin-bottom: 25px;
@@ -57,7 +56,7 @@ body {
 .aspect :first-child {
   width: 100%;
   position: absolute;
-  color: #D44A39;
+  color: #FE9131;
 }
 
 .aspect :last-child {
