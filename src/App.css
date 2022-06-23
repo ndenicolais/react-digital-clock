@@ -1,5 +1,5 @@
 body {
-  background: #D44A39;
+  background: #F8F7DA;
   font-family: 'Consolas';
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 .clock {
   margin: 10px;
   border-radius: 10px;
-  background: #FECF37;
+  background: #8C383A;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,12 +56,12 @@ body {
 .aspect :first-child {
   width: 100%;
   position: absolute;
-  color: #FE9131;
+  color: #DCA349;
 }
 
 .aspect :last-child {
   position: relative;
-  color: #D44A39;
+  color: #F8F7DA;
 }
 
 .aspect p {
@@ -70,7 +70,7 @@ body {
 
 .footer{
   margin-top: 1rem;
-  background-color: #D44A39;
+  background-color: #F8F7DA;
   position: fixed;
   bottom: 0;
   left: 0;
