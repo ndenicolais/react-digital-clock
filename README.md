@@ -21,9 +21,7 @@ yarn add react-router-dom
 ```
 
 ## 🛠️ Installation Steps
-In the project folder we can perform several actions:
-
-1) Clone this repository from GitHub.
+1) Clone this repository from GitHub
 ```
 git clone https://github.com/ndenicolais/react-digital-clock
 ```
@@ -45,16 +43,9 @@ npm start
 yarn start
 ```
 
-5) Open "localhost" to view the application in the browser.
+5) Open [http://localhost:3000](http://localhost:3000) to view the application in the browser
 ## ⚙️ Customization
 
-Customize the clock's aspect according to your preferences by editing these parameters:
+Customize the code according to your preferences by editing  clock and calendar's parameters in:
 
-📄 App.css in 📁 src
-
-📆 calendar
-
-🕛 clock
-- hour
-- format (AM / PM)
-- aspect
+📁 components
